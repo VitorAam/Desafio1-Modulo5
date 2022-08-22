@@ -1,0 +1,30 @@
+.section-dois {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .grid-cards{
+    margin-top: 30px;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    max-width: 900px;
+    gap: 30px;
+    justify-content: center;
+    
+  }
+  
+  .div-botao {
+    width: 260px;
+  }
+  
+  @media (max-width: 900px) {
+    .grid-cards {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  }

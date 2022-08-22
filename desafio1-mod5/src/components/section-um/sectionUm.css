@@ -1,0 +1,17 @@
+.section-um-container {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  
+  @media (max-width: 900px) {
+    .section-um-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 15px;
+    
+    }
+  }

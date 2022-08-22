@@ -1,0 +1,51 @@
+.card-unitario {
+    color: #888888
+   }
+   
+   .imagem-card {
+     background: #FFFFFF 0% 0% no-repeat padding-box;
+     border: 1px solid #707070;
+     opacity: 1;
+     width: 100%;
+   }
+   
+   .nome-card {
+     font-size: 14px;
+   }
+   
+   .descricao-card, .oldPrice-card {
+     font-size: 12px;
+   }
+   
+   .promo-card {
+     font-size: 16px;
+     font-weight: bold;
+   }
+   
+   
+   @media (max-width: 900px) {
+     .grid-cards {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+     }
+   
+     .card-unitario {
+       display: grid;
+       grid-template-columns: auto auto;
+       gap: 20px;
+       padding: 20px;
+   
+     }
+   
+     .descricao-card {
+       display: none;
+     }
+   
+     .texto-card {
+       width: 100%;
+       height: 100%;
+     }
+   
+     
+   }

@@ -1,0 +1,30 @@
+.formulario-um {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .radios {
+    display: flex;
+    width: 200px;
+    gap: 40px;
+    justify-content: flex-start;
+    color: #888888;
+    opacity: 1;
+    font-size: 12px;
+  }
+  
+  .botaoForms {
+    width: 340px;
+  }
+  
+  @media (max-width: 900px) {
+    .formulario-um {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      padding: 15px;
+    
+    }
+  }
